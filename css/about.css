@@ -1,0 +1,11 @@
+section#about{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    scroll-snap-align: start;
+    overflow: hidden;
+    background-color: aqua;
+}
