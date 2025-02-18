@@ -12,27 +12,36 @@
 </head>
 
 <body>
-  <div class="nav-square">
-    <div class="nav-buttons">
-      <button class="nav-button" data-target="home">HOME</button>
-      <button class="nav-button" data-target="about">ABOUT</button>
-      <button class="nav-button" data-target="characters">CHARACTERS</button>
-      <button class="nav-button" data-target="screenshots">SCREENSHOTS</button>
-      <button class="nav-button" data-target="contact">CONTACT</button>
-    </div>
-  </div>
-
   <div class="container">
-    <section id="home">
-      <img alt="" class="header-image" src="img/homepage/base-header-image.jpg">
-      <img alt="" class="header-foliage" src="img/homepage/header-foliage.gif">
-      <img alt="" class="header-daskza" src="img/homepage/main_header_title.png">
-      <div class="header-lower-effect"></div>
-    </section>
-
-    <section id="about">
-      <p>Hola Que tal</p>
-    </section>
+    <ul id="cards">
+      <li class="card" id="card1">
+        <div class="card-body">
+          <img alt="" class="header-image" src="img/homepage/base-header-image.jpg">
+          <img alt="" class="header-logo" src="img/homepage/between_worlds_logo.png">
+          <div class="trailer_button">WATCH TRAILER</div>
+        </div>
+      </li>
+      <li class="card" id="card2">
+        <div class="card-body">
+          <h2>PROJECT</h2>
+        </div>
+      </li>
+      <li class="card" id="card3">
+        <div class="card-body">
+          <h2>CHARACTERS</h2>
+        </div>
+      </li>
+      <li class="card" id="card4">
+        <div class="card-body">
+          <h2>SCREENSHOTS</h2>
+        </div>
+      </li>
+      <li class="card" id="card5">
+        <div class="card-body">
+          <h2>TEAM</h2>
+        </div>
+      </li>
+    </ul>
   </div>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

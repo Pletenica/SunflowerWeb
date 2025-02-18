@@ -1,45 +1,101 @@
 body {
   margin: 0;
   padding: 0;
-  color: #242424;
+  background-color: #242424;
+  height: auto;
+}
+
+:root {
+  --cards: 5;
+  --cardHeight: 99vh;
+  --cardTopPadding: 2vh;
+  --cardMargin: 1vw;
 }
 
 .container {
-  display: block;
-  min-height: 100vh;
+  width: 99%;
+  margin: 0 auto;
+  height: auto;
+}
+
+#cards {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(var(--cards)), var(--cardHeight);
+  gap: var(--cardMargin);
+  padding-bottom: 0px;
+  margin-bottom: 1vh;
+  margin-top: 0px;
+}
+
+#card1 {
+  --index: 1;
+  height: 98vh;
+  padding-top: 1vh;
+}
+
+#card2 {
+  --index: 2;
+  height: 98vh;
+  padding-top: 1vh;
+}
+
+#card3 {
+  --index: 3;
+  height: 98vh;
+  padding-top: 1vh;
+}
+
+#card4 {
+  --index: 4;
+  height: 98vh;
+  padding-top: 1vh;
+}
+
+#card5 {
+  --index: 5;
+  height: 98vh;
+  padding-top: 1vh;
+}
+
+.card {
+  position: sticky;
+  top: 0;
+  padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+
+.card-body {
+  box-sizing: border-box;
+  height: 100%;
+  border-radius: 24px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   overflow: hidden;
 }
 
-.nav-square {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 4px;
-  background-color: rgb(30, 30, 30);
-  border-radius: 0 0 24px 0;
-  z-index: 1000;
-  padding: 20px;
+#card1 .card-body {
+  background-color: gray;
 }
 
-.nav-buttons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  color: #fff;
+#card2 .card-body {
+  background-color: gray;
 }
 
-.nav-button {
-  margin: 4px;
-  padding: 8px 5px;
-  border: none;
-  background-color: rgb(30, 30, 30);
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-  opacity: 1;
-  transition: all 0.65s;
+#card3 .card-body {
+  background-color: gray;
+}
+
+#card4 .card-body {
+  background-color: gray;
+}
+
+#card5 .card-body {
+  background-color: gray;
 }
 
 ::-webkit-scrollbar {
