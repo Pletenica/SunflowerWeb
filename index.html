@@ -14,15 +14,24 @@
 </head>
 
 <body>
+
+
   <div class="container">
     <ul id="cards">
-      <li class="card" id="card1">
-        <div class="card-body">
-          <img alt="" class="header-image" src="img/homepage/base-header-image.jpg">
-          <img alt="" class="header-logo" src="img/homepage/between_worlds_logo.png">
-          <div class="trailer_button">WATCH TRAILER</div>
-        </div>
-      </li>
+        <li class="card" id="card1">
+            <div class="card-body">
+              <img alt="" class="header-image" id="headerBackground" src="img/homepage/base-header-image.jpg">
+              <img alt="" class="header-logo" id="headerLogo" src="img/homepage/between_worlds_logo.png">
+              <div class="trailer_button" id="watch_trailer">VEURE TRÁILER</div>
+              
+              <div class="video-container" id="videoContainer">
+                <iframe id="trailerVideo" width="560" height="315" 
+                  src="https://www.youtube.com/embed/8rtzu8SsweM?autoplay=1&controls=1" 
+                  frameborder="0" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </li>
       <li class="card" id="card2">
         <div class="card-body">
           <h2>PROJECT</h2>
@@ -138,6 +147,25 @@
     </ul>
   </div>
 
+  <div class="language-selector">
+    <button id="main-btn" class="circle-btn">
+        <img src="img/icons/globe.png">
+    </button>
+    <div id="dropdown" class="dropdown hidden">
+        <button class="circle-btn option" data-lang="ca">
+            <img src="img/icons/catalan.png">
+        </button>
+        <button class="circle-btn option" data-lang="es">
+            <img src="img/icons/spanish.png">
+        </button>
+        <button class="circle-btn option" data-lang="en">
+            <img src="img/icons/english.png">
+        </button>
+    </div>
+</div>
+
+  <script src="scripts/languaje.js"></script>
+  <script src="scripts/trailer.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
