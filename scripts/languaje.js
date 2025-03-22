@@ -6,12 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const screenshotTitleElement = document.getElementById("screenshot_title");
     const charactersTitleElement = document.getElementById("characters_title");
     const teamTitleElement = document.getElementById("team_title");
-    const project_titleTitleElement = document.getElementById("project_title");
+    const projectTitleTitleElement = document.getElementById("project_title");
     const josepRolElement = document.getElementById("josep_rol");
     const arnauRolElement = document.getElementById("arnau_rol");
     const rogerRolElement = document.getElementById("roger_rol");
     const silvinoRolElement = document.getElementById("silvino_rol");
-    const javierRolElement = document.getElementById("javier_rol");
+    const javierRolElement = document.getElementById("javi_rol");
     const adriaRolElement = document.getElementById("adria_rol");
     const lucasRolElement = document.getElementById("lucas_rol");
 
@@ -94,10 +94,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Cambiar el texto al idioma seleccionado
             watchTrailerElement.textContent = watchTrailerTranslations[selectedLang];
-            project_titleTitleElement.textContent = projectTitleTranslations[selectedLang];
+            projectTitleTitleElement.textContent = projectTitleTranslations[selectedLang];
             charactersTitleElement.textContent = charactersTitleTranslations[selectedLang];
             teamTitleElement.textContent = teamTitleTranslations[selectedLang];
             screenshotTitleElement.textContent = screenshotsTitleTranslations[selectedLang];
+            
+
             josepRolElement.textContent = josepRolTranslations[selectedLang];
             arnauRolElement.textContent = arnauRolTranslations[selectedLang];
             rogerRolElement.textContent = rogerRolTranslations[selectedLang];
@@ -105,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
             javierRolElement.textContent = javierRolTranslations[selectedLang];
             adriaRolElement.textContent = adriaRolTranslations[selectedLang];
             lucasRolElement.textContent = lucasRolTranslations[selectedLang];
-            
+
             // Ocultar el menú con animación
             dropdown.classList.remove("visible");
             setTimeout(() => {
