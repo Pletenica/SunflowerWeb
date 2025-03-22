@@ -30,6 +30,22 @@ body {
   margin-top: 0px;
 }
 
+h2 {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  top: 0px;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  font-size: calc(100vw / 10);
+  white-space: nowrap;
+  margin-top: 1vh;
+  position: absolute;
+  height: auto;
+}
+
 #card1 {
   --index: 1;
   height: 98vh;
@@ -97,6 +113,7 @@ body {
 
 #card5 .card-body {
   background-color: gray;
+  flex-wrap: wrap;
 }
 
 ::-webkit-scrollbar {

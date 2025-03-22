@@ -33,6 +33,9 @@ img.header-logo{
     align-items: center;
     justify-content: center;
     font-size: 100%;
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .trailer_button:hover {

@@ -6,16 +6,18 @@
   <title>Between Worlds</title>
   <link rel="shortcut icon" href="img/web_icon.png" type="image/x-icon">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Jersey+10&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/screenshots.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/homepage.css">
   <link rel="stylesheet" href="css/about.css">
-
+  <link rel="stylesheet" href="css/team.css">
 </head>
 
 <body>
-
-
   <div class="container">
     <ul id="cards">
         <li class="card" id="card1">
@@ -23,7 +25,6 @@
               <img alt="" class="header-image" id="headerBackground" src="img/homepage/base-header-image.jpg">
               <img alt="" class="header-logo" id="headerLogo" src="img/homepage/between_worlds_logo.png">
               <div class="trailer_button" id="watch_trailer">VEURE TRÁILER</div>
-              
               <div class="video-container" id="videoContainer">
                 <iframe id="trailerVideo" width="560" height="315" 
                   src="https://www.youtube.com/embed/8rtzu8SsweM?autoplay=1&controls=1" 
@@ -34,12 +35,12 @@
           </li>
       <li class="card" id="card2">
         <div class="card-body">
-          <h2>PROJECT</h2>
+          <h2 id="project_title">PROJECTE</h2>
         </div>
       </li>
       <li class="card" id="card3">
         <div class="card-body">
-          <h2>CHARACTERS</h2>
+          <h2 id="characters_title">PERSONATGES</h2>
         </div>
       </li>
       <li class="card" id="card4">
@@ -141,7 +142,90 @@
       </li>
       <li class="card" id="card5">
         <div class="card-body">
-          <h2>TEAM</h2>
+          <h2 id="team_title">EQUIP</h2>
+          <div class="team_card">
+            <img src="img/profiles/josep_profile.png">
+            <div class="team_card-content">
+                <h3>JOSEP SÀNCHEZ ARBONA</h3>
+                <p id="josep_rol">DIRECTOR D'ART</p>
+            </div>
+            <div class="social-buttons">
+                <a href="https://www.artstation.com/daskza"><img src="img/icons/artstation.webp" alt="ArtStation"></a>
+                <a href="https://www.linkedin.com/in/josep-s%C3%A0nchez-arbona-08225a25b/"><img src="img/icons/linkedin.webp" alt="LinkedIn"></a>
+                <a href="https://daskza.com/"><img src="img/icons/web.webp" alt="Web"></a>
+            </div>
+        </div>
+        <div class="team_card">
+            <img src="img/profiles/arnau_profile.png">
+            <div class="team_card-content">
+                <h3>ARNAU FALGUERAS GARCÍA DE ATOCHA</h3>
+                <p id="arnau_rol">PROGRAMADOR</p>
+            </div>
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/arnau-falgueras-baa55a1b2/"><img src="img/icons/linkedin.webp" alt="LinkedIn"></a>
+                <a href="https://arnau77.github.io/Portfolio/"><img src="img/icons/web.webp" alt="Web"></a>
+            </div>
+        </div>
+        <div class="team_card">
+            <img src="img/profiles/roger_profile.png">
+            <div class="team_card-content">
+                <h3>ROGER PÉREZ ROMERA</h3>
+                <p id="roger_rol">DIRECTOR DE DISSENY</p>
+            </div>
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/roger-p%C3%A9rez-romera-361645214/"><img src="img/icons/linkedin.webp" alt="LinkedIn"></a>
+                <a href="https://www.yuyepr.com/"><img src="img/icons/web.webp" alt="Web"></a>
+            </div>
+        </div>
+        <div class="team_card">
+            <img src="img/profiles/silvino_profile.png">
+            <div class="team_card-content">
+                <h3>SILVINO MEDINA CARDONA</h3>
+                <p id="silvino_rol">ARTISTA 3D</p>
+            </div>
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/silvino-medina-cardona-476558197/"><img src="img/icons/linkedin.webp" alt="LinkedIn"></a>
+                <a href="https://www.artstation.com/silvi_00"><img src="img/icons/artstation.webp" alt="ArtStation"></a>
+                <a href="https://silvinomc00.wixsite.com/my-site"><img src="img/icons/web.webp" alt="Web"></a>
+            </div>
+        </div>
+        <div class="team_card">
+            <img src="img/profiles/javi_profile.png">
+            <div class="team_card-content">
+                <h3>JAVIER BELDA GONZÁLEZ</h3>
+                <p id="javi_rol">DISSENYADOR</p>
+            </div>
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/javier-belda/"><img src="img/icons/linkedin.webp" alt="LinkedIn"></a>
+                <a href="https://sites.google.com/view/javierdbeldagonzlez"><img src="img/icons/web.webp" alt="Web"></a>
+            </div>
+        </div>
+        <div class="team_card">
+            <img src="img/profiles/adria_profile.png">
+            <div class="team_card-content">
+                <h3>ADRIÀ GEL</h3>
+                <p id="adria_rol">DISSENYADOR DE SO</p>
+            </div>
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/adri%C3%A0-gel-79a75b177/"><img src="img/icons/linkedin.webp" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/ardy.mp3/"><img src="img/icons/instagram.png" alt="Instagram"></a>
+                <a href="https://open.spotify.com/intl-es/artist/6hkSlFEcAmW3Jo5pHkM8Ud"><img src="img/icons/spotify.svg" alt="Spotify"></a>
+            </div>
+        </div>
+        <div class="team_card">
+            <img src="img/profiles/lucas_profile.png">
+            <div class="team_card-content">
+                <h3>LUCAS FRÉJUS</h3>
+                <p id="lucas_rol">DISSENYADOR DE SO</p>
+            </div>
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/lucas-fr%C3%A9jus-45973455/"><img src="img/icons/linkedin.webp" alt="LinkedIn"></a>
+                <a href="https://open.spotify.com/intl-es/artist/4PnRxwiOweuwNhp1hy7R0L"><img src="img/icons/spotify.svg" alt="Spotify"></a>
+                <a href="https://www.instagram.com/mirag3noir/"><img src="img/icons/instagram.png" alt="Instagram"></a>
+                <a href="https://officialmusic4all.wixsite.com/portfoliodelucas"><img src="img/icons/web.webp" alt="Web"></a>
+            </div>
+        </div>
+        </div>
         </div>
       </li>
     </ul>
