@@ -2,7 +2,7 @@
     background: rgb(227, 222, 219);
     border-radius: 15px;
     overflow: visible;
-    width: 20vw;
+    width: 22vw;
     height: 40vh;
     margin: 20px 10px 20px 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -87,12 +87,17 @@
     z-index: 1;
     border-radius: 0px;
     rotate: 0deg;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    filter: grayscale(100%);
+}
+.team_card:hover img {
+    filter: grayscale(0%);
 }
 .social-buttons a:hover {
     background-color: #555;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     .team_card {
         margin-left: 10vw;
         width: 80vw;
@@ -103,6 +108,7 @@
         margin-top: 1vh;
         margin-bottom: 2vh;
         flex-direction: row;
+        rotate: 0deg;
     }
     .team_card img {
         top: -1vh;

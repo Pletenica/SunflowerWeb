@@ -7,6 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const charactersTitleElement = document.getElementById("characters_title");
     const teamTitleElement = document.getElementById("team_title");
     const project_titleTitleElement = document.getElementById("project_title");
+    const josepRolElement = document.getElementById("josep_rol");
+    const arnauRolElement = document.getElementById("arnau_rol");
+    const rogerRolElement = document.getElementById("roger_rol");
+    const silvinoRolElement = document.getElementById("silvino_rol");
+    const javierRolElement = document.getElementById("javier_rol");
+    const adriaRolElement = document.getElementById("adria_rol");
+    const lucasRolElement = document.getElementById("lucas_rol");
 
     // Diccionario de idiomas
     const watchTrailerTranslations = {
@@ -34,6 +41,41 @@ document.addEventListener("DOMContentLoaded", () => {
         en: "SCREENSHOTS",
         ca: "CAPTURES"
     };
+    const josepRolTranslations = {
+        es: "DIRECTOR DE ARTE",
+        en: "ART DIRECTOR",
+        ca: "DIRECTOR D'ART"
+    };
+    const arnauRolTranslations = {
+        es: "PROGRAMADOR",
+        en: "PROGRAMMER",
+        ca: "PROGRAMADOR"
+    };
+    const rogerRolTranslations = {
+        es: "DIRECTOR DE DISEÑO",
+        en: "DESSIGN DIRECTOR",
+        ca: "DIRECTOR DE DISSENY"
+    };
+    const silvinoRolTranslations = {
+        es: "ARTISTA 3D",
+        en: "3D ARTIST",
+        ca: "ARTISTA 3D"
+    };
+    const javierRolTranslations = {
+        es: "DISEÑADOR",
+        en: "DESIGNER",
+        ca: "DISSENYADOR"
+    };
+    const adriaRolTranslations = {
+        es: "DISEÑADOR DE SONIDO",
+        en: "SOUND DESIGNER",
+        ca: "DISSENYADOR DE SO"
+    };
+    const lucasRolTranslations = {
+        es: "DISEÑADOR DE SONIDO",
+        en: "SOUND DESIGNER",
+        ca: "DISSENYADOR DE SO"
+    };
 
     // Mostrar / ocultar menú
     mainBtn.addEventListener("click", () => {
@@ -56,7 +98,14 @@ document.addEventListener("DOMContentLoaded", () => {
             charactersTitleElement.textContent = charactersTitleTranslations[selectedLang];
             teamTitleElement.textContent = teamTitleTranslations[selectedLang];
             screenshotTitleElement.textContent = screenshotsTitleTranslations[selectedLang];
-
+            josepRolElement.textContent = josepRolTranslations[selectedLang];
+            arnauRolElement.textContent = arnauRolTranslations[selectedLang];
+            rogerRolElement.textContent = rogerRolTranslations[selectedLang];
+            silvinoRolElement.textContent = silvinoRolTranslations[selectedLang];
+            javierRolElement.textContent = javierRolTranslations[selectedLang];
+            adriaRolElement.textContent = adriaRolTranslations[selectedLang];
+            lucasRolElement.textContent = lucasRolTranslations[selectedLang];
+            
             // Ocultar el menú con animación
             dropdown.classList.remove("visible");
             setTimeout(() => {
