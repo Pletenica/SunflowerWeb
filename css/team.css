@@ -87,17 +87,17 @@
     z-index: 1;
     border-radius: 0px;
     rotate: 0deg;
-    transition: transform 0.2s ease, filter 0.2s ease;
-    filter: grayscale(100%);
-}
-.team_card:hover img {
-    filter: grayscale(0%);
-}
+transition: transform 0.2s ease, filter 0.2s ease;
+            filter: grayscale(100%);
+        }
+        .team_card:hover img {
+            filter: grayscale(0%);
+        }
 .social-buttons a:hover {
     background-color: #555;
 }
 
-@media (max-width: 750px) {
+@media (max-aspect-ratio: 1.05/1) {
     .team_card {
         margin-left: 10vw;
         width: 80vw;
