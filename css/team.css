@@ -4,7 +4,7 @@
     border-radius: 15px;
     overflow: visible;
     width: 22vw;
-    height: 40vh;
+    height: 35vh;
     margin: 20px 10px 20px 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transition: transform 0.1s ease, box-shadow 0.1s ease;
@@ -47,7 +47,8 @@
     font-style: normal;
     rotate: 1deg;
     margin-bottom: 0.5vh;
-    line-height: 3vh;
+    line-height: 2vh;
+    font-size: 2vw;
 }
 .team_card p {
     margin: 0px;
@@ -100,6 +101,9 @@ transition: transform 0.2s ease, filter 0.2s ease;
 }
 
 @media (max-aspect-ratio: 1.05/1) {
+    .team_card h3 {
+        font-size: 2vh;
+    }
     .team_card {
         margin-left: 10vw;
         width: 80vw;

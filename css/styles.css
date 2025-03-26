@@ -114,6 +114,17 @@ h2 {
 #card5 .card-body {
   background-color: gray;
   flex-wrap: wrap;
+  justify-content: end;
+  padding-bottom: 8vh;
+}
+
+@media (max-aspect-ratio: 1.05/1) {
+  #card5 .card-body {
+    background-color: gray;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-bottom: 1vh;
+  }
 }
 
 ::-webkit-scrollbar {
