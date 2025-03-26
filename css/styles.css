@@ -114,8 +114,7 @@ h2 {
 #card5 .card-body {
   background-color: gray;
   flex-wrap: wrap;
-  justify-content: end;
-  padding-bottom: 8vh;
+  padding-top: 3vh;
 }
 
 @media (max-aspect-ratio: 1.05/1) {

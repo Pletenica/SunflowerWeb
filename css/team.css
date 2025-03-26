@@ -114,7 +114,7 @@ transition: transform 0.2s ease, filter 0.2s ease;
 
 @media (max-aspect-ratio: 1.5/1) {
     .team_card h3 {
-        line-height: 3vh;
+        line-height: 2.5vh;
     }
 }
 
