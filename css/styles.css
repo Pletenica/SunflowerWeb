@@ -97,24 +97,29 @@ h2 {
 
 #card1 .card-body {
   background-color: gray;
+  z-index: 1;
 }
 
 #card2 .card-body {
   background-color: gray;
+  z-index: 20;
 }
 
 #card3 .card-body {
   background-color: gray;
+  z-index: 30;
 }
 
 #card4 .card-body {
   background-color: gray;
+  z-index: 40;
 }
 
 #card5 .card-body {
   background-color: gray;
   flex-wrap: wrap;
   padding-top: 3vh;
+  z-index: 50;
 }
 
 @media (max-aspect-ratio: 1.05/1) {
@@ -146,8 +151,8 @@ h2 {
 /* Contenedor del selector */
 .language-selector {
   position: fixed;
-  top: 14px;
-  right: 10px;
+  top: 2vh;
+  right: 1.5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,8 +160,8 @@ h2 {
 
 /* Botón principal */
 .circle-btn {
-  width: 40px;
-  height: 40px;
+  width: 5vh;
+  height: 5vh;
   border-radius: 50%;
   border: none;
   background-color: rgb(227, 222, 219);
@@ -170,7 +175,6 @@ h2 {
 }
 
 .circle-btn img {
-  margin-top: 4px;
   width: 90%;
   height: auto;
 }
