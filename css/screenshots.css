@@ -1,6 +1,6 @@
 div.slide-left-screenshot{
     z-index: 5;
-    height: 40%;
+    height: 37vh;
     width: calc(250px * 27);
     display: flex;
     animation: scroll-left 40s linear infinite;
@@ -12,22 +12,21 @@ div.slide-left-screenshot:hover{
 }
 div.slide-right-screenshot{
     z-index: 5;
-    height: 40vh;
+    height: 37vh;
     width: calc(250px * 27);
     display: flex;
     animation: scroll-right 40s linear infinite;
     align-self: flex-start;
-    margin-bottom: 4vh;
 }
 div.slide-right-screenshot:hover{
     animation-play-state: paused;
 }
 
 div.screenshot-image{
-    height: 40vh;
+    height: 100%;
     width: 800px;
     display: flex;
-    padding: 15px;
+    padding: 0 1vw 0 1vw;
     perspective: 100px;
     align-items: flex-end;
     justify-content: center;
@@ -48,6 +47,7 @@ div.screenshot-image img:hover{
     transform: translateZ(10px);
     filter: brightness(100%);
     z-index: 15;
+    rotate: 1deg;
 }
 
 @keyframes scroll-right{
