@@ -33,17 +33,16 @@ body {
 h2 {
   color: white;
   text-align: center;
-  margin-top: 0;
-  top: 0px;
+  top: 2vh;
   font-family: "Jersey 10", sans-serif;
   font-weight: 400;
   font-style: normal;
-  width: 100%;
-  font-size: calc(100vw / 10);
-  white-space: nowrap;
+  font-size: 6vh;
+  padding: 0 3vw 0 3vw;
   margin-top: 1vh;
   position: absolute;
-  height: auto;
+  background-color: black;
+  z-index: 100;
 }
 
 #card1 {
@@ -204,4 +203,20 @@ h2 {
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
+}
+
+#team_title {
+  rotate: 3deg;
+}
+
+#screenshot_title{
+  rotate: -2deg;
+}
+
+#project_title{
+  rotate: -1deg;
+}
+
+#characters_title{
+  rotate: 3deg;
 }

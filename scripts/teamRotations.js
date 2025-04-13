@@ -23,4 +23,10 @@ window.onload = function() {
     document.getElementById("dartcolepsy_card").style.transform = `rotate(${getRandomRotation(minRotation, maxRotation)}deg)`;
     document.getElementById("reflection_card").style.transform = `rotate(${getRandomRotation(minRotation, maxRotation)}deg)`;
     document.getElementById("minion_card").style.transform = `rotate(${getRandomRotation(minRotation, maxRotation)}deg)`;
+    document.getElementById("mat_jungle_card").style.transform = `rotate(${getRandomRotation(minRotation, maxRotation)}deg)`;
+    document.getElementById("mat_flood_card").style.transform = `rotate(${getRandomRotation(minRotation, maxRotation)}deg)`;
+    document.getElementById("mat_glaze_card").style.transform = `rotate(${getRandomRotation(minRotation, maxRotation)}deg)`;
+    document.getElementById("mat_flaming_card").style.transform = `rotate(${getRandomRotation(minRotation, maxRotation)}deg)`;
+    document.getElementById("lostril_card").style.transform = `rotate(${getRandomRotation(minRotation, maxRotation)}deg)`;
+    document.getElementById("nsidet_card").style.transform = `rotate(${getRandomRotation(minRotation, maxRotation)}deg)`;
 };
