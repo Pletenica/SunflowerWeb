@@ -93,7 +93,7 @@ h2 {
 }
 
 #card1 .card-body {
-  background-color: gray;
+  background-image: url("../img/homepage/background_placeholder.webp");
   z-index: 1;
   border-style: none;
 }

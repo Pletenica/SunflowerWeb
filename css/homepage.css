@@ -3,6 +3,11 @@ img.header-image{
     height: 100vh;
     width: 100vw;
     filter: blur(4px);
+    transition: opacity 0.3s ease;
+}
+
+.header-image .loaded {
+    opacity: 0;
 }
 
 img.header-logo{
