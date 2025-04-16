@@ -260,10 +260,12 @@ h2 {
   flex-direction: column;
   align-items: start;
   z-index: 1000;
+  pointer-events: none;
 }
 
 .side-btn {
   background-color: rgb(227, 222, 219);
+  pointer-events:stroke;
 }
 
 .side-panel {
