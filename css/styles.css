@@ -156,7 +156,7 @@ h2 {
 /* Contenedor del selector */
 .language-selector {
   position: fixed;
-  top: 2vh;
+  top: 1.5vh;
   right: 1.5vh;
   display: flex;
   flex-direction: column;
@@ -183,8 +183,8 @@ h2 {
 }
 
 .circle-btn img {
-  width: 90%;
-  height: auto;
+  width: 3vh;
+  height: 3vh;
 }
 
 .circle-btn:hover {
@@ -195,7 +195,7 @@ h2 {
 .dropdown {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1vh;
   margin-top: 10px;
   transition: opacity 0.3s, transform 0.3s;
 }
@@ -249,4 +249,87 @@ h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+
+.side-panel-wrapper {
+  position: fixed;
+  top: 1.5vh;
+  left: 1.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  z-index: 1000;
+}
+
+.side-btn {
+  background-color: rgb(227, 222, 219);
+}
+
+.side-panel {
+  margin-top: 10px;
+  padding: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.side-panel.visible {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Botones del panel */
+.panel-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #242424;
+  color: white;
+  border-radius: 1vh;
+  border-width: thin;
+  border-style: solid;
+  border-color: rgb(127, 122, 119);
+  padding: 0.75vh;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.panel-option:hover {
+  transform: scale(1.05);
+}
+
+.panel-option img {
+  width: 3vh;
+  height: 3vh;
+}
+
+.email-panel-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #c2c2c2;
+  color: rgb(37, 37, 37);
+  border-radius: 1vh;
+  border-width: thin;
+  border-style: solid;
+  border-color: rgb(127, 122, 119);
+  padding: 0.75vh;
+  font-size: 1rem;
+  transition: transform 0.2s;
+}
+
+.email-panel-option img {
+  width: 3vh;
+  height: 3vh;
+}
+
+.pletenica-link-text {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

@@ -3,6 +3,7 @@ document.getElementById("watch_trailer").addEventListener("click", function() {
     const logo = document.getElementById("headerLogo");
     const button = document.getElementById("watch_trailer");
     const videoContainer = document.getElementById("videoContainer");
+    const provencanaImage = document.getElementById("provencana-image");
 
     // Aplicar fade-out
     logo.classList.add("fade-out");
@@ -10,9 +11,10 @@ document.getElementById("watch_trailer").addEventListener("click", function() {
 
     // Mostrar el video después de la animación
     setTimeout(() => {
-        background.style.display = "none";
+      background.style.display = "none";
       logo.style.display = "none";
       button.style.display = "none";
+      provencanaImage.style.display = "none";
       videoContainer.style.display = "block";
       
       setTimeout(() => {
