@@ -81,7 +81,7 @@ h2 {
 .card-body {
   box-sizing: border-box;
   height: 100%;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 4vh 0 rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,11 +89,13 @@ h2 {
   overflow: hidden;
   padding-left: 3vw;
   padding-right: 3vw;
+  border-style: inset;
 }
 
 #card1 .card-body {
   background-color: gray;
   z-index: 1;
+  border-style: none;
 }
 
 #card2 .card-body {
@@ -128,6 +130,9 @@ h2 {
     flex-wrap: wrap;
     justify-content: end;
     padding-bottom: 1vh;
+  }
+  #team_title {
+    margin-top: -1vh;
   }
 }
 
