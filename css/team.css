@@ -128,7 +128,7 @@ transition: transform 0.2s ease, filter 0.2s ease;
     }
 }
 
-@media (min-aspect-ratio: 2/1) {
+@media (min-aspect-ratio: 2.2/1) {
     .team_card h3 {
         line-height: 4vh;
         font-size: 4vh;

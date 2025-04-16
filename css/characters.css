@@ -10,11 +10,12 @@
     overflow: hidden;
     background: #222;
     border-radius: 10px;
-    transition: rotate 0.1s ease-in-out;
+    transition: transform 0.25s, filter 0.25s;
 }
 .character_card:hover {
     z-index: 10;
     rotate: 1deg;
+    transform: translateZ(10px);
 }
 .character_card:hover .info {
     opacity: 1;
