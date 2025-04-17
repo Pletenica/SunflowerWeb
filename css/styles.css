@@ -94,6 +94,7 @@ h2 {
 
 #card1 .card-body {
   background-image: url("../img/homepage/background_placeholder.webp");
+  background-size: cover;
   z-index: 1;
   border-style: none;
 }
