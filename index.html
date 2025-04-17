@@ -25,10 +25,13 @@
         <li class="card" id="card1">
             <div class="card-body">
               <img alt="" loading="lazy" class="header-image" id="headerBackground" src="img/homepage/background.gif">
-              <img alt="" loading="eager" class="header-logo" id="headerLogo" src="img/homepage/between_worlds_logo.webp">
-              <div class="trailer_button" id="watch_trailer">
-                <img class="trailer-button-background" src="img/backgrounds/neutral_trailer_button.webp" alt="trailer_button_background"></img>
-                <p class="trailer-button-text">VEURE TRÀILER</p>
+              <div class="logo-and-button">
+                <img alt="" loading="eager" class="header-logo" id="headerLogo" src="img/homepage/between_worlds_logo.webp">
+                <div class="trailer_button" id="watch_trailer">
+                  <img class="trailer-button-background" src="img/backgrounds/neutral_trailer_button.webp" alt="trailer_button_background"></img>
+                  <p class="trailer-button-text">VEURE TRÀILER</p>
+                </div>
+                <img class="ins-prov-logo" id="provencana-image" src="img/icons/provencana.webp" alt="Institut Provençana logo">
               </div>
               <div class="video-container" id="videoContainer">
                 <iframe id="trailerVideo" width="560" height="315" 
@@ -36,7 +39,6 @@
                   frameborder="0" allowfullscreen>
                 </iframe>
               </div>
-              <img class="ins-prov-logo" id="provencana-image" src="img/icons/provencana.webp" alt="Institut Provençana logo">
             </div>
           </li>
       <li class="card" id="card2">
@@ -323,9 +325,11 @@
             <img src="img/icons/english.png">
         </button>
     </div>
+    
+</div>
 
     <div class="side-panel-wrapper">
-        <button id="side-toggle" class="circle-btn side-btn">
+        <button id="side-toggle" class="circle-btn">
           <img src="img/icons/info.webp" alt="Team Links">
         </button>
         <div id="side-panel" class="side-panel hidden">
@@ -346,7 +350,6 @@
             <span class="pletenica-link-text">pletenicastudios@gmail.com</span>
           </div>
         </div>
-      </div>
 </div>
 
   <script src="scripts/languaje.js"></script>

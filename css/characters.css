@@ -78,6 +78,7 @@
 .info p {
     padding: 0;
     margin: 0;
+    font-size: 2vh;
 }
 @media (min-aspect-ratio: 1/1) {
     .grid {
