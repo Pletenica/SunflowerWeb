@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const mainBtn = document.getElementById("main-btn");
     const dropdown = document.getElementById("dropdown");
     const options = document.querySelectorAll(".option");
-    const watchTrailerElement = document.querySelector(".trailer-button-text");
+    //const watchTrailerElement = document.querySelector(".trailer-button-text");
     const screenshotTitleElement = document.getElementById("screenshot_title");
     const charactersTitleElement = document.getElementById("characters_title");
     const teamTitleElement = document.getElementById("team_title");
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
             mainBtn.querySelector("img").src = newIcon;
 
             // Cambiar el texto al idioma seleccionado
-            watchTrailerElement.textContent = watchTrailerTranslations[selectedLang];
+            //watchTrailerElement.textContent = watchTrailerTranslations[selectedLang];
             sinopsisElement.textContent = sinopsisTranslations[selectedLang];
             projectTitleTitleElement.textContent = projectTitleTranslations[selectedLang];
             charactersTitleElement.textContent = charactersTitleTranslations[selectedLang];
