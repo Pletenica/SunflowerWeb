@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const adriaRolElement = document.getElementById("adria_rol");
     const lucasRolElement = document.getElementById("lucas_rol");
     const sinopsisElement = document.getElementById("sinopsis");
+    const articleSectionTitleElement = document.getElementById("article_section_title");
+    const articleWebLinkElement = document.getElementById("article_web_link");
 
     // Diccionario de idiomas
     const sinopsisTranslations = {
@@ -82,6 +84,16 @@ document.addEventListener("DOMContentLoaded", () => {
         en: "SOUND DESIGNER",
         ca: "DISSENYADOR DE SO"
     };
+    const articleSectionTitleTranslations = {
+        es: "MIRA EL ARTÍCULO",
+        en: "CHECK THE ARTICLE",
+        ca: "MIRA L'ARTICLE"
+    };
+    const articleWebLinkTranslations = {
+        es: "Artículo Web",
+        en: "Article Web",
+        ca: "Article Web"
+    };
 
     // Mostrar / ocultar menú
     mainBtn.addEventListener("click", () => {
@@ -114,6 +126,8 @@ document.addEventListener("DOMContentLoaded", () => {
             javierRolElement.textContent = javierRolTranslations[selectedLang];
             adriaRolElement.textContent = adriaRolTranslations[selectedLang];
             lucasRolElement.textContent = lucasRolTranslations[selectedLang];
+            articleSectionTitleElement.textContent = articleSectionTitleTranslations[selectedLang];
+            articleWebLinkElement.textContent = articleWebLinkTranslations[selectedLang];
 
             // Ocultar el menú con animación
             dropdown.classList.remove("visible");
