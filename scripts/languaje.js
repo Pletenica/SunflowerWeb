@@ -85,9 +85,9 @@ document.addEventListener("DOMContentLoaded", () => {
         ca: "DISSENYADOR DE SO"
     };
     const articleSectionTitleTranslations = {
-        es: "MIRA EL ARTÍCULO",
-        en: "CHECK THE ARTICLE",
-        ca: "MIRA L'ARTICLE"
+        es: "MIRA EL ARTÍCULO DE",
+        en: "CHECK THE ARTICLE FROM",
+        ca: "MIRA L'ARTICLE DE"
     };
     const articleWebLinkTranslations = {
         es: "Artículo Web",
